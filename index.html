@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Border Radius Previewer</title>
+</head>
+
+<body>
+    <div class="container">
+        <div id="title">
+            <h1>Border Radius Previewer</h1>
+        </div>
+        <div class="card">
+            <h2 id="headline">Your box</h2>
+            <div class="container">
+                <div id="box"></div>
+                <div class="input-sliders">
+                    <h6>All</h6>
+                    <input class="slider" id="1" type="range" value="50" min="0" max="100">
+                    <h6>Top left</h6>
+                    <input class="slider" id="2" type="range" value="50" min="0" max="100">
+                    <h6>Top right</h6>
+                    <input class="slider" id="3" type="range" value="50" min="0" max="100">
+                    <h6>Bottom left</h6>
+                    <input class="slider" id="4" type="range" value="50" min="0" max="100">
+                    <h6>Bottom right</h6>
+                    <input class="slider" id="5" type="range" value="50" min="0" max="100">
+                </div>
+                <button id="btn">Clear</button>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>

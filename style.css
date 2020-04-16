@@ -1,0 +1,137 @@
+/* Tags */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+body {
+    background: #808080;
+}
+
+input[type=range] {
+    -webkit-appearance: none;
+    background: transparent;
+}
+
+input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+}
+
+input[type=range]:focus {
+    outline: none;
+}
+
+input[type=range]::-moz-range-thumb {
+    border: none;
+    border-radius: 50px;
+    background: #3d3d3d;
+    box-shadow: 1px 1px 3px #343434,
+        -1px -1px 3px #464646;
+    cursor: pointer;
+}
+
+input[type=range]::-webkit-slider-thumb {
+    border: none;
+    border-radius: 50px;
+    background: #3d3d3d;
+    box-shadow: 1px 1px 3px #343434,
+        -1px -1px 3px #464646;
+    cursor: pointer;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 4.5px;
+    cursor: pointer;
+    border-radius: 5px;
+    background: #6e6e6e;
+    box-shadow: 3px 3px 5px #5e5e5e,
+        -3px -3px 5px #7f7f7f;
+
+}
+
+input[type=range]::-moz-range-track {
+    width: 100%;
+    height: 4.5px;
+    cursor: pointer;
+    border-radius: 5px;
+    background: #6e6e6e;
+    box-shadow: 3px 3px 5px #5e5e5e,
+        -3px -3px 5px #7f7f7f;
+
+}
+
+h6 {
+    font-size: 1rem;
+    margin-top: 0.4rem;
+}
+
+/* CLASSES */
+.card {
+    width: 100%;
+    text-align: center;
+    margin: auto;
+}
+
+.container {
+    width: 100%;
+}
+
+.input-sliders {
+    width: 100%;
+}
+
+.slider {
+    width: 25%;
+
+}
+
+
+/* IDs */
+
+#title {
+    text-align: center;
+    margin: 2rem;
+}
+
+#headline {
+    margin-bottom: 1.5rem;
+}
+
+#box {
+    margin: auto;
+    margin-bottom: 3rem;
+    width: 35vh;
+    height: 35vh;
+    border-radius: 50px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    background: #808080;
+    box-shadow: 30px 30px 59px #6d6d6d,
+        -30px -30px 59px #939393;
+}
+
+#btn {
+    margin-top: 2rem;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 5px;
+    background: #808080;
+    box-shadow: 3px 3px 5px #6d6d6d,
+        -3px -3px 5px #939393;
+    font-size: 1.4rem;
+    color: rgba(10, 10, 10, 0.712);
+    cursor: pointer;
+    transition-property: background, color, box-shadow;
+    transition-duration: 0.3s;
+}
+
+#btn:hover {
+    background: rgba(10, 10, 10, 0.712);
+    color: #808080;
+    box-shadow: none;
+}
